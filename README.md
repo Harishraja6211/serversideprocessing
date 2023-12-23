@@ -97,7 +97,7 @@ Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/
 </html>
 ```
 ### url.py
-```html
+```py
 from django.contrib import admin
 from django.urls import path
 from myapp import views
@@ -110,7 +110,7 @@ urlpatterns = [
 
 ```
 ### models.py
-```html
+```py
 from django.shortcuts import render
 from django.template  import loader
 from django.shortcuts import render
